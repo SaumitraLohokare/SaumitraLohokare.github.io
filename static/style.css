@@ -139,7 +139,7 @@ p {
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
     .project-info {
         display: flex;
         flex-direction: column-reverse;
