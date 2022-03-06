@@ -1,0 +1,184 @@
+/* 
+EEEDDE
+E0DDAA
+203239
+141E27
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+button {
+    border: 0;
+    background: none;
+    /* margin-right: 1.5em; */
+}
+
+a {
+    height: fit-content;
+    margin-right: 10px;
+}
+
+img {
+    width: 2.5em;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #E0DDAA;
+    box-shadow: 0px 0px 4px 0px #B2B2B2;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts {
+    margin-right: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .contacts {
+        margin-right: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;    
+    box-shadow: 0px 4px 4px 0px #B2B2B2;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 2em;
+    width: 100%
+}
+
+.about-text {
+    padding: 0px 2em;
+}
+
+.photo {
+    width: 200px;
+    height: 250px;
+}
+
+.who-am-i {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 4em;
+    max-width: 80%;
+    margin-bottom: 35px;
+}
+
+.left-project-info {
+    width: 45%;
+}
+
+.right-project-info {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshot {
+    width: 274px;
+    height: 571px;
+    display: inline-flex;
+}
+
+@media (min-width: 1080px) {
+    .right-project-info {
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .project-info {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 2em 4em;
+        max-width: 100%;
+    }
+
+    .left-project-info {
+        width: 100%;
+    }
+    
+    .right-project-info {
+        min-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .screenshot {
+        width: 137px;
+        height: 285px;
+        padding-right: 1em;
+    }
+}
+
+.section-title {
+    margin: 50px 0px;
+}
+
+.info-title {
+    margin-bottom: 15px;
+    margin-top: 20px
+}
