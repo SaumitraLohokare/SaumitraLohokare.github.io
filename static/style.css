@@ -78,6 +78,11 @@ p {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    a {
+        height: fit-content;
+        margin-right: 0px;
+    }
 }
 
 .profile-photo {
